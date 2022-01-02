@@ -28,18 +28,18 @@
       <!--Блок описания-->
       <section class="description">
         <div class="two-columns">  
-          <h5 class="two-columns__brief">Главные проблемы в обучении</h5>
-          <div class="two-columns__main-text">
-            <p class="two-columns__paragraph">Ни в школе, ни в институте нас не учат тому, как правильно изучать материал. Мы готовимся к экзаменам и учим билеты. Мы тренируемся решать однообразные задачи, чтобы лучше сдать тест, но часто в итоге это не дает нам реального знания. Зубрежка быстро выветривается и не приносит пользы.</p>
-            <p class="two-columns__paragraph"> <span class="main-text__span-aссent"> Вывод: </span> учиться тоже нужно уметь, но почему-то этому мало где учат. Что с этим делать?</p>
-            <p class="two-columns__paragraph last-indent">Конкретные техники и упражнения помогают изменить подход к обучению, сделать его эффективным и захватывающим. Эти же техники применяются на примере обучения в Практикуме.</p>
-          </div>
+          <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
+          <ul class="two-columns__main-text">
+            <li class="two-columns__paragraph">Ни в школе, ни в институте нас не учат тому, как правильно изучать материал. Мы готовимся к экзаменам и учим билеты. Мы тренируемся решать однообразные задачи, чтобы лучше сдать тест, но часто в итоге это не дает нам реального знания. Зубрежка быстро выветривается и не приносит пользы.</li>
+            <li class="two-columns__paragraph"> <span class="two-columns__span-aссent"> Вывод: </span> учиться тоже нужно уметь, но почему-то этому мало где учат. Что с этим делать?</li>
+            <li class="two-columns__paragraph">Конкретные техники и упражнения помогают изменить подход к обучению, сделать его эффективным и захватывающим. Эти же техники применяются на примере обучения в Практикуме.</li>
+          </ul>
         </div>
       </section> 
       <!--Блок Цифры-->
       <section class="digits">
         <h2 class="section-title">Цифры и факты</h2>
-        <h3 class="section-subtitle">Про учебу и мозг</h3>
+        <p class="section-subtitle">Про учебу и мозг</p>
         <ul class="table">
           <li class="table__cell">
             <h3 class="table__heading">86 миллиардов</h3>
@@ -84,13 +84,14 @@
         <div class="feynman__link">
           <a href='#' class="link feynman__link_text">Подробнее &rarr;</a>
         </div>
-        <div class="feynman__image">
-          <img src="images/feynman.png" alt="Фейнман над нами смеется!" class="feynman__image">
-        </div>
+        <!--<div class="feynman__image">-->
+          <img class="feynman__image" src="images/feynman.png" alt="Фейнман над нами смеется!" class="feynman__image">
+        <!--</div>убрала лишнюю обертку по совету ревьюера-->
       </section>
       <!--Блок Принципы обучения Кауфмана-->
       <section class="kaufman">
-        <img src="images/kaufman-triangle.svg" alt="Голубой треугольник - словно парус над волной, одиноко плывущий к берегу знаний" class="kaufman-triangle"> 
+        <div class="kaufman__kaufman-triangle"></div>
+        <!--<img src="images/kaufman-triangle.svg" alt="Голубой треугольник - словно парус над волной, одиноко плывущий к берегу знаний" class="kaufman-triangle"> -->
         <h2 class="section-title section-title_theme_dark">Принципы обучения</h2>
         <h3 class="section-subtitle section-subtitle_theme_dark">от Джоша Кауфмана</h3>
         <ul class="table table_theme_dark">
@@ -137,30 +138,29 @@
         </ul>
       </section>
     </main>
-    <!--Подвал-->
     <footer class="footer">
-      <div class="footer__column">
-        <div class="footer__column_content_copyright">
+      <div class="footer__columns">
+        <div class="footer__footercolumn_content_copyright">
           <img src="images/logo_place_footer.svg" alt="Яндекс Практикум" class="logo logo_place_footer">
-          <p class="footer__autor">&copy; Ольга Ахламова</p>
+          <p class="footer__author">&copy; Ольга Ахламова</p>
         </div>
-        <ul class="footer__column_content_info">
+        <ul class="footer__footercolumn_content_info">
           <li>
-          <h3 class="footer__column-heading">О практикуме</h3>
+          <h3 class="footer__footercolumn-heading">О практикуме</h3>
           </li>
           <li> 
-            <a href='#' class="footer__column-links">Главная</a>
+            <a href='#' class="footer__footercolumn-links">Главная</a>
           </li>
           <li>
-            <a href='#' class="footer__column-links">Концепция</a>
+            <a href='#' class="footer__footercolumn-links">Концепция</a>
           </li>
           <li>
-            <a href='#' class="footer__column-links">Наставники</a>
+            <a href='#' class="footer__footercolumn-links">Наставники</a>
           </li>
         </ul>
-        <ul class="footer__column_content_social">
+        <ul class="footer__footercolumn_content_social">
           <li>
-            <h3 class="footer__column-heading">Соцсети</h3>
+            <h3 class="footer__footercolumn-heading">Соцсети</h3>
           </li>
           <li>
             <a href='#' class="footer__social-icon">
