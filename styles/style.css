@@ -331,7 +331,7 @@ li:last-child {
   padding-bottom: 40px;
 }
 
-.footercolumn_content_copyright {
+.footer__footercolumn_content_copyright {
   flex-basis: 711px;
   display: flex;
   flex-direction: column;
@@ -343,7 +343,7 @@ li:last-child {
   position: static;
 }
 
-.footer__author {
+.footer__autor {
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
@@ -389,7 +389,7 @@ li:last-child {
   text-decoration: none;
 }
 
-.footer__column-link {
+.footer__footercolumn-link {
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
