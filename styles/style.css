@@ -57,12 +57,6 @@
   left: 64px;
 }
 
-.header__text {
-  line-height: 25px;
-  font-size: 18px;
-  font-weight: normal;
-}
-
 .header__link {
   text-decoration: none;
   color: #2f80ed;
@@ -89,7 +83,6 @@
 .description {
   background-color: white;
   padding-top: 100px;
-  /* padding-bottom: 100px; исправила по указанию ревьюера */
 }
 
 .two-columns {
@@ -127,21 +120,15 @@
   margin-bottom: 30px;
 }
 
-li:last-child {
+.two-columns__paragraph:last-child {
   margin-bottom: 0;
 }
-
-/* выше по указанию ревьюера добавила ласт-чайлд для последнего элемента таблицы */
 
 .two-columns__span-accent {
   line-height: 34px;
   font-size: 24px;
   font-weight: bold;
 }
-
-/*.last-indent {
-  margin-bottom: 0;
-} исправлено по указанию ревьюера */
 
 .digits {
   margin-top: 100px;
@@ -220,7 +207,6 @@ li:last-child {
 
 .feynman__subtitle {
   width: max-content;
-  /*height: max-content; убрала по указанию ревьюера*/
   position: relative;
   margin: 70px auto 0;
   top: 70px;
@@ -238,10 +224,6 @@ li:last-child {
   top: 50%;
   right: 48px;
   width: max-content;
-}
-
-.feynman__link_text {
-  line-height: 51px;
   font-size: 36px;
   font-weight: normal;
   color: #2f80ed;
@@ -264,19 +246,10 @@ li:last-child {
   color: white;
 }
 
-/*.kaufman-triangle {
+.kaufman__triangle {
   width: 870px;
   height: 870px;
-  position: absolute;
-  top: 0;
-  right: -210px;
-  z-index: 1;
-}*/
-
-.kaufman__kaufman-triangle {
-  width: 870px;
-  height: 870px;
-  background-image: url("../images/kaufman-triangle.svg");
+  background-image: url("../images/kaufman-triangle.svg"alt="Голубой треугольник - словно парус над волной, одиноко плывущий к берегу знаний");
   background-color: #1f1f1f;
   background-size: contain;
   position: absolute;
@@ -289,11 +262,13 @@ li:last-child {
 .section-title_theme_dark {
   position: relative;
   margin-top: 90px;
+  color: white;
   z-index: 5;
 }
 
 .section-subtitle_theme_dark {
   position: relative;
+  color: white;
   z-index: 5;
 }
 
@@ -304,14 +279,17 @@ li:last-child {
 .table__cell_theme_dark {
   width: 200px;
   margin-top: 80px;
+  color: white;
   z-index: 5;
 }
 
 .table__heading_theme_dark {
+  color: white;
   z-index: 5;
 }
 
 .table__text_theme_dark {
+  color: white;
   z-index: 5;
 }
 
@@ -332,7 +310,7 @@ li:last-child {
   padding-bottom: 40px;
 }
 
-.footer__footercolumn_content_copyright {
+.footer__column_content_copyright {
   flex-basis: 711px;
   display: flex;
   flex-direction: column;
@@ -350,13 +328,13 @@ li:last-child {
   font-weight: normal;
 }
 
-.footer__footercolumn_content_info {
+.footer__column_content_info {
   list-style: none;
   padding-left: 0;
   margin-top: 0;
 }
 
-.footer__footercolumn-heading {
+.footer__column-heading {
   line-height: 30px;
   font-size: 18px;
   font-weight: bold;
@@ -365,7 +343,7 @@ li:last-child {
   margin-bottom: 20px;
 }
 
-.footer__footercolumn-links {
+.footer__column-links {
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
@@ -373,9 +351,12 @@ li:last-child {
   margin-bottom: 16px;
   text-decoration: none;
   color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-.footer__footercolumn_content_social {
+.footer__column_content_social {
   list-style: none;
   padding-left: 0;
   margin-top: 0;
@@ -390,7 +371,7 @@ li:last-child {
   text-decoration: none;
 }
 
-.footer__footercolumn-link {
+.footer__column-link {
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
