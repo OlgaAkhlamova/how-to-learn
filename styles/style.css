@@ -249,7 +249,7 @@
 .kaufman__triangle {
   width: 870px;
   height: 870px;
-  background-image: url("../images/kaufman-triangle.svg"alt="Голубой треугольник - словно парус над волной, одиноко плывущий к берегу знаний");
+  background-image: url("../images/kaufman-triangle.svg");
   background-color: #1f1f1f;
   background-size: contain;
   position: absolute;
@@ -305,6 +305,7 @@
 .footer__columns {
   display: flex;
   justify-content: space-between;
+  box-sizing: border-box;
   width: 90%;
   padding-top: 60px;
   padding-bottom: 40px;
