@@ -7,19 +7,18 @@
   <meta name="keywords" content="учиться Кауфман кауфман Фейман фейман метод">
   <meta name="author" content="Ольга Ахламова">
   <title>Научиться учиться</title>
-  <link rel="stylesheet" href="./styles/normalize.css">
-  <link rel="stylesheet" href="./styles/style.css">
-  
+  <link rel="stylesheet" href="./pages/index.css">
 </head>
 <body>
   <div class="page">
+    <!--Заголовок-->
     <header class="header">
       <img src="images/logo_place_header.svg" alt="Яндекс Практикум" class="logo logo_place_header">
       <h1 class="header__title">Научиться учиться</h1>
       <p class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?
-        <a href='#' class="header__link">Узнать &rarr;</a>
+        <a href='#technic' class="header__link" title="Пока не нажмешь - не узнаешь 0_0">Узнать &rarr;</a>
       </p> 
-      <div class="header__square-pic" ></div>
+      <div class="header__square-pic rotation" ></div>
       <img src="images/header-image.png" alt="Опять Двойка" class="header__main-illustration">
     </header>
     <main class="content">
@@ -33,8 +32,66 @@
             <p class="two-columns__paragraph">Конкретные техники и упражнения помогают изменить подход к обучению, сделать его эффективным и захватывающим. Эти же техники применяются на примере обучения в Практикуме.</p>
           </div>
         </div>
-      </section> 
-      <!--Блок Цифры-->
+      </section>
+      <!--Блок техники обучения--> 
+      <section class="techniques">
+        <a name="technic"></a>
+        <h2 class="section-title">Техники обучения</h2>
+        <p class="section-subtitle">Пять практик от Барбары Оакли</p>
+        <div class="cards">
+          <div class="cards__item">
+            <img src="images/cards-attention.png" alt="Книжка в руках" class="cards__image">
+            <h3 class="cards__title">Два вида внимания</h3>
+            <p class="cards__description">Глубокие знания возникают, если чередовать сфокусированное и рассеянное мышление.</p>
+          </div>
+          <div class="cards__item">
+            <img src="images/cards-recall.png" alt="Скульптура в музее" class="cards__image">
+            <h3 class="cards__title">Recall</h3>
+            <p class="cards__description">Вспоминайте изученное — это позволит соединить разрозненные порции памяти.</p>
+          </div>
+          <div class="cards__item">
+            <img src="images/cards-interliving.png" alt="Внутренний интерьер музея" class="cards__image">
+            <h3 class="cards__title">Интерливинг</h3>
+            <p class="cards__description">Изучайте несколько навыков одновременно, они обогащают друг друга.</p>
+          </div>
+          <div class="cards__item">
+            <img src="images/cards-question.png" alt="Одинокий маленький человек в высоком белом зале" class="cards__image">
+            <h3 class="cards__title">Вопросы</h3>
+            <p class="cards__description">Слушая преподавателя, придумывайте хороший вопрос, который вас действительно волнует.</p>
+          </div>
+          <div class="cards__item">
+            <img src="images/cards-competence.png" alt="Стопка книг в руке" class="cards__image">
+            <h3 class="cards__title">Иллюзия компетентности</h3>
+            <p class="cards__description">Повторите про себя, запишите, расскажите другу: вам только кажется, что вы владеете новой темой.</p>
+          </div>
+        </div>
+      </section>
+      <!--Блок видео-->
+      <section class="video">
+        <h2 class="section-title">Видео на TED</h2>
+        <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
+        <div class="video__iframes">
+          <iframe class="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe class="video__iframe" src="https://www.youtube.com/embed/5MgBikgcWnY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </section>
+      <!--Блок Оакли-->
+      <section class="oakley">
+        <div class="two-columns">
+          <h2 class="two-columns__brief">История Барбары Оакли</h2>
+          <div class="two-columns__main-text">
+            <p class="two-columns__paragraph">Ни в школе, ни в институте нас не учат тому, как правильно изучать материал. Мы готовимся к экзаменам и учим билеты. Мы тренируемся решать однообразные задачи, чтобы лучше сдать тест, но часто в итоге это не дает нам реального знания. Зубрежка быстро выветривается и не приносит пользы.</p>
+          </div>
+        </div>
+      </section>
+      <!--Блок Фейман-->
+      <section class="feynman">
+        <h2 class="feynman__title">Метод Фейнмана</h2>
+        <p class="feynman__subtitle">Выучить и не забыть</p>
+        <a href='#' class="feynman__link" title="Что же советует Фейман?">Подробнее &rarr;</a>
+        <img class="feynman__image" src="images/feynman.png" alt="Фейнман над нами смеется!">
+      </section>
+      <!--Блок Цифры и факты-->
       <section class="digits">
         <h2 class="section-title">Цифры и факты</h2>
         <p class="section-subtitle">Про учебу и мозг</p>
@@ -75,18 +132,26 @@
           </li> 
         </ul>           
       </section>
-      <!--Блок Фейман-->
-      <section class="feynman">
-        <h2 class="feynman__title">Метод Фейнмана</h2>
-        <h4 class="feynman__subtitle">Выучить и не забыть</h4>
-        <a href='#' class="feynman__link">Подробнее &rarr;</a>
-        <img class="feynman__image" src="images/feynman.png" alt="Фейнман над нами смеется!">
+      <!--Блок Книга Хана-->
+      <section class="khan">
+        <div class="khan__container">
+          <h4 class="khan__author">Салман Хан</h4>
+          <h2 class="khan__title">Весь мир &mdash; школа</h2>
+          <p class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру. Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.</p>
+          <p class="khan__quote-author">Джордж Лукас</p>
+          <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
+          <div class="khan__book-container">
+            <!--<img src="images/khan-book.jpg" alt="Книга Салмана Хана" class="khan__book-pic">-->
+            <div class="khan__book-pic"></div>
+            <a href="https://www.ozon.ru/product/ves-mir-shkola-preobrazovannoe-obrazovanie-162999126/" class="khan__buy-link" title="Мы узнавали: тут она всё еще есть!">Купить книгу &rarr;</a>
+          </div>
+        </div>
       </section>
       <!--Блок Принципы обучения Кауфмана-->
       <section class="kaufman">
-        <div class="kaufman__triangle"></div>
+        <div class="kaufman__triangle rotation"></div>
         <h2 class="section-title section-title_theme_dark">Принципы обучения</h2>
-        <h3 class="section-subtitle section-subtitle_theme_dark">от Джоша Кауфмана</h3>
+        <p class="section-subtitle section-subtitle_theme_dark">от Джоша Кауфмана</p>
         <ul class="table table_theme_dark">
           <li class="table__cell table__cell_theme_dark">
             <h3 class="table__heading table__heading_theme_dark">1</h3>
@@ -130,13 +195,32 @@
           </li>               
         </ul>
       </section>
+      <!--Блок Ресурсы-->
+      <section class="resources">
+        <h2 class="section-title">Полезные ресурсы</h2>
+        <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
+        <div class="resources__logo-zone">
+          <a href="https://arzamas.academy/" target="_blank" title="просветительский проект, посвящённый истории культуры">
+            <img src="images/resources-arzamas.svg" alt="Арзамас — просветительский проект, посвящённый истории культуры." class="resources__logo">
+          </a>
+          <a href="https://nplus1.ru/" target="_blank" title="российское научно-популярное интернет-издание">
+            <img src="images/resources-n1.svg" alt="Сайт N+1: российское научно-популярное интернет-издание" class="resources__logo">
+          </a>
+          <a href="https://strelka.com/ru/" target="_blank" title="Институт медиа, архитектуры и дизайна «Стрелка» активно занимается образовательно-просветительской деятельностью, направленной на развитие человеческого роста.">
+            <img src="images/resources-strelka.svg" alt="Сайт института Стрелка" class="resources__logo">
+          </a>
+          <a href="https://polka.academy/" target="_blank" title="Виртуальная полка с самыми важными книгами">
+            <img src="images/resources-polka.svg" alt="Сайт Полка: 108 самых важных русских книг в вопросах и ответах" class="resources__logo">
+          </a>
+        </div>
+      </section>
     </main>
     <!--Подвал-->
     <footer class="footer">
       <div class="footer__columns">
         <div class="footer__column footer__column_content_copyright">
           <img src="images/logo_place_footer.svg" alt="Яндекс Практикум" class="logo logo_place_footer">
-          <p class="footer__autor">&copy; Ольга Ахламова</p>
+          <p class="footer__author">&copy; Ольга Ахламова</p>
         </div>
         <div class="footer__column footer__column_content_info">
           <h3 class="footer__column-heading">О практикуме</h3>

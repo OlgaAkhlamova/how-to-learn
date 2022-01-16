@@ -256,7 +256,6 @@
   top: 0;
   right: -210px;
   z-index: 1;
-
 }
 
 .section-title_theme_dark {
@@ -323,7 +322,7 @@
   position: static;
 }
 
-.footer__autor {
+.footer__author {
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
