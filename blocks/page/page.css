@@ -8,4 +8,5 @@
     /* выше для экранов больше 1600px отцентрировали весь контент */
     padding: 0;
     font-family: 'Helvetica Neue', Arial, sans-serif;
+    overflow: hidden;
 }
