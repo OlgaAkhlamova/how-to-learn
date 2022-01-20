@@ -11,9 +11,9 @@
     font-weight: normal;
     text-decoration: none;
     color: #2f80ed;
+    transition-duration: 2s;
 }
 
 .feynman__link:hover {
     opacity: 0.5;
-    transition-duration: 2s;
 }

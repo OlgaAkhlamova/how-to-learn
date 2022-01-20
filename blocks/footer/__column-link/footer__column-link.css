@@ -5,9 +5,9 @@
     padding-left: 0;
     text-decoration: none;
     color: white;
+    transition-duration: 1s;
 }
 
 .footer__column-link:hover {
     opacity: 0.5;
-    transition-duration: 1s;
 }
